@@ -4,9 +4,9 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
-            <id>github</id>   <!-- MUST match pom.xml repo id -->
+            <id>github</id>
             <username>SDETThings</username>
-            <password>${env.GITHUB_TOKEN}</password>
+            <password>${secrets.GH_PACKAGE_TOKEN}</password>
         </server>
     </servers>
 </settings>

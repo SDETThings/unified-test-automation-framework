@@ -30,7 +30,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>io.github.SDETThings</groupId>
+            <groupId>SDETThings</groupId>
             <artifactId>unified-core-library</artifactId>
             <version>1.0.0</version>
         </dependency>
