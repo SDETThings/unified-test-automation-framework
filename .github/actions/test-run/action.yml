@@ -1,0 +1,9 @@
+name: Test run step
+description: Executes the test cases after project setup
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run test cases
+      shell: bash
+      run: mvn clean compile test --file pom.xml
