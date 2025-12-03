@@ -1,0 +1,30 @@
+name: Project setup steps
+description: Sets up the project environment before test execution
+
+inputs:
+  OWNER_USERNAME:
+    description: 'Maven repository owner'
+    required: true
+  GH_PACKAGE_TOKEN:
+    description: 'GitHub Package token for authentication'
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '23'
+        distribution: 'adopt'
+        cache: maven
+
+    - name: Import core library
+      run: mvn -s settings.xml install -DskipTests
+      shell: bash
+      env:
+        MAVEN_USER: ${{ secrets.OWNER_USERNAME }}
+        MAVEN_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}

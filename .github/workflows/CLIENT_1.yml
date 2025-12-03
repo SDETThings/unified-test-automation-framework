@@ -1,0 +1,29 @@
+name: CLIENT 1 TEST EXECUTION WORKFLOW
+on:
+  workflow_dispatch:
+
+jobs:
+  END-TO-END-TEST-RUN-CLIENT-1:
+    name: End to End Test Run for CLIENT 1
+    runs-on: ubuntu-latest
+    permissions:
+      packages: read
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup steps
+        uses: ./.github/actions/setup
+        with:
+          OWNER_USERNAME: ${{ secrets.OWNER_USERNAME }}
+          GH_PACKAGE_TOKEN: ${{ secrets.OWNER_TOKEN }}
+
+      - name: Update TestCaseInputDriver json file
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: './src/test/resources/TestCaseDriver/TestCaseMetadata.json'
+        env:
+          TestCaseRunConfiguration: ${{ vars.CLIENT_1_TEST_CASES }}
+
+      - name: Run tests
+        uses: ./.github/actions/test-run
