@@ -18,8 +18,8 @@ runs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-version: '17'
-        distribution: 'temurin'
+        java-version: '21'
+        distribution: 'adopt'
 
     - name: Import core library
       run: mvn -s settings.xml install -DskipTests
