@@ -1,21 +1,10 @@
 package listeners;
 
 import base.BaseFunctions;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import com.google.gson.*;
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Tracing;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.*;
 import org.testng.annotations.ITestAnnotation;
-import unifiedReports.LoggerFactory;
-import unifiedReports.webLogger.WebReportLogger;
-import utils.RetryAnalyzer;
-
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
