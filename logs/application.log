@@ -1470,3 +1470,42 @@ Get element text succeeded on locator *[text()='Congratulations! Your order has 
 Attempt 1 to perform action: Click element on *[@id='form']/div/div/div/a
 Click element succeeded on locator *[@id='form']/div/div/div/a attempt 1
 =========================================================================
+
+====================== API REQUEST ======================
+HTTP Method   : GET
+Request URL   : https://practice.expandtesting.com/notes/api/health-check
+Headers       : {accept=application/json}
+Request Body  : <EMPTY>
+Status Code  : 200
+Response Time : 0 ms
+Response Body  : {
+    "success": true,
+    "status": 200,
+    "message": "Notes API is Running"
+}
+
+✅ Status Code Validation Passed: Expected 200 and received 200
+
+✅ No mismatches found for response validation.
+
+
+====================== API REQUEST ======================
+HTTP Method   : POST
+Request URL   : https://practice.expandtesting.com/notes/api/users/register
+Headers       : {accept=application/json}
+Request Body  : {"name":"Kuaslaaabvt","email":"KuaslsafMYg@gmail.com","password":"biswads@123"}
+Status Code  : 201
+Response Time : 0 ms
+Response Body  : {
+    "success": true,
+    "status": 201,
+    "message": "User account created successfully",
+    "data": {
+        "id": "69307363b1c39f029819d236",
+        "name": "Kuaslaaabvt",
+        "email": "kuaslsafmyg@gmail.com"
+    }
+}
+
+✅ Status Code Validation Passed: Expected 201 and received 201
+
