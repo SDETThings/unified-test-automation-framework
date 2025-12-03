@@ -16,7 +16,7 @@ jobs:
         uses: ./.github/actions/setup
         with:
           OWNER_USERNAME: ${{ secrets.OWNER_USERNAME }}
-          GH_PACKAGE_TOKEN: ${{ secrets.OWNER_TOKEN }}
+          GH_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update TestCaseInputDriver json file
         uses: microsoft/variable-substitution@v1
