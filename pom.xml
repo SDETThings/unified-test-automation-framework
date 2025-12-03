@@ -19,7 +19,7 @@
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/SDETThings/unified-core-library</url>
+            <url>https://maven.pkg.github.com/SDETThings</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>

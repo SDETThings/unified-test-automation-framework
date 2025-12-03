@@ -25,5 +25,5 @@ runs:
       run: mvn -s settings.xml install -DskipTests
       shell: bash
       env:
-        OWNER_USERNAME: ${{ inputs.OWNER_USERNAME }}
-        GH_PACKAGE_TOKEN: ${{ inputs.GH_PACKAGE_TOKEN }}
+        MAVEN_USER: ${{ inputs.OWNER_USERNAME }}
+        MAVEN_TOKEN: ${{ inputs.GH_PACKAGE_TOKEN }}
