@@ -1,0 +1,113 @@
+[
+  {
+    "CLIENT_NAME": "TEST_CLIENT_1",
+    "ENDPOINT_URL_DETAILS": [
+      {
+        "ENDPOINT_NAME": "Health check",
+        "ENDPOINT_URL": "notes/api/health-check"
+      },
+      {
+        "ENDPOINT_NAME": "User Registration",
+        "ENDPOINT_URL": "notes/api/users/register"
+      },
+      {
+        "ENDPOINT_NAME": "User Login",
+        "ENDPOINT_URL": "notes/api/users/login"
+      },
+      {
+        "ENDPOINT_NAME": "Create Note",
+        "ENDPOINT_URL": "notes/api/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Fetch All Notes",
+        "ENDPOINT_URL": "notes/api/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Fetch Single Note",
+        "ENDPOINT_URL": "notes/api/notes/{id}"
+      },
+      {
+        "ENDPOINT_NAME": "Update Note",
+        "ENDPOINT_URL": "notes/api/notes/{id}"
+      },
+      {
+        "ENDPOINT_NAME": "Delete Note",
+        "ENDPOINT_URL": "notes/api/notes/{id}"
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_2",
+    "ENDPOINT_URL_DETAILS": [
+      {
+        "ENDPOINT_NAME": "Health check",
+        "ENDPOINT_URL": "notes/api/health-check"
+      },
+      {
+        "ENDPOINT_NAME": "User Registration",
+        "ENDPOINT_URL": "notes/api/users/register"
+      },
+      {
+        "ENDPOINT_NAME": "User Login",
+        "ENDPOINT_URL": "notes/api/users/login"
+      },
+      {
+        "ENDPOINT_NAME": "Create Note",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Fetch All Notes",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Fetch Single Note",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Update Note",
+        "ENDPOINT_URL": "/notes"
+      },
+        {
+            "ENDPOINT_NAME": "Delete Note",
+            "ENDPOINT_URL": "/notes"
+        }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_3",
+    "ENDPOINT_URL_DETAILS": [
+      {
+        "ENDPOINT_NAME": "Health check",
+        "ENDPOINT_URL": "notes/api/health-check"
+      },
+      {
+        "ENDPOINT_NAME": "User Registration",
+        "ENDPOINT_URL": "notes/api/users/register"
+      },
+      {
+        "ENDPOINT_NAME": "User Login",
+        "ENDPOINT_URL": "notes/api/users/login"
+      },
+      {
+        "ENDPOINT_NAME": "Create Note",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Fetch All Notes",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Fetch Single Note",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Update Note",
+        "ENDPOINT_URL": "/notes"
+      },
+      {
+        "ENDPOINT_NAME": "Delete Note",
+        "ENDPOINT_URL": "/notes"
+      }
+    ]
+  }
+]

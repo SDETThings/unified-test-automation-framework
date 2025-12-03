@@ -1,0 +1,56 @@
+[
+  {
+    "CLIENT_NAME": "TEST_CLIENT_1",
+    "ENDPOINT_BASE_URL_DETAILS":
+    [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_2",
+    "ENDPOINT_BASE_URL_DETAILS":
+    [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_3",
+    "ENDPOINT_BASE_URL_DETAILS":
+    [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "BASE_URL": "https://practice.expandtesting.com/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "CLIENT_NAME": "TEST_CLIENT_1",
+    "ENDPOINT_PAYLOAD_DETAILS":
+    [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_2",
+    "ENDPOINT_PAYLOAD_DETAILS":
+    [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_3",
+    "ENDPOINT_PAYLOAD_DETAILS":
+    [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "PAYLOAD_DETAILS": [
+          {
+            "ENDPOINT_NAME": "Health check",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "User Registration",
+            "RAW_PAYLOAD_JSON": {
+              "name": "String",
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "User Login",
+            "RAW_PAYLOAD_JSON": {
+              "email": "String",
+              "password": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Create Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Fetch All Notes",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Fetch Single Note",
+            "RAW_PAYLOAD_JSON": null
+          },
+          {
+            "ENDPOINT_NAME": "Update Note",
+            "RAW_PAYLOAD_JSON": {
+              "title": "String",
+              "description": "String",
+              "completed": "String",
+              "category": "String"
+            }
+          },
+          {
+            "ENDPOINT_NAME": "Delete Note",
+            "RAW_PAYLOAD_JSON": null
+          }
+        ]
+      }
+    ]
+  }
+]

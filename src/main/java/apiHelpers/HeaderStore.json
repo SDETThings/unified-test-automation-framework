@@ -1,0 +1,266 @@
+[
+  {
+    "CLIENT_NAME": "TEST_CLIENT_1",
+    "HEADER_DETAILS": [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "COMMON_HEADERS": {
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "User Registration",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "User Login",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Create Note",
+            "HEADERS": {
+              "x-auth-token": "%data.token"
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Fetch All Notes",
+            "HEADERS": {
+              "x-auth-token": "%data.token"
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Fetch Single Note",
+            "HEADERS": {
+              "x-auth-token": "%data.token"
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Update Note",
+            "HEADERS": {
+              "x-auth-token": "%data.token"
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Delete Note",
+            "HEADERS": {
+              "x-auth-token": "%data.token"
+            }
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "COMMON_HEADERS": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+              "CUSTOM_LOGIN_HEADER": "LoginValue"
+            }
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "COMMON_HEADERS": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+              "CUSTOM_LOGIN_HEADER": "LoginValue"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_2",
+    "HEADER_DETAILS": [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "COMMON_HEADERS": {
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "User Registration",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "User Login",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Create Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Fetch All Notes",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Fetch Single Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Update Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Delete Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "COMMON_HEADERS": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+              "CUSTOM_LOGIN_HEADER": "LoginValue"
+            }
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "COMMON_HEADERS": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+              "CUSTOM_LOGIN_HEADER": "LoginValue"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CLIENT_NAME": "TEST_CLIENT_3",
+    "HEADER_DETAILS": [
+      {
+        "ENVIRONMENT": "DEVELOPMENT",
+        "COMMON_HEADERS": {
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "User Registration",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "User Login",
+            "HEADERS": {
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Create Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Fetch All Notes",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Fetch Single Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Update Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          },
+          {
+            "ENDPOINT_IDENTIFIER": "Delete Note",
+            "HEADERS": {
+              "x-auth-token": ""
+            }
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "TESTING",
+        "COMMON_HEADERS": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+              "CUSTOM_LOGIN_HEADER": "LoginValue"
+            }
+          }
+        ]
+      },
+      {
+        "ENVIRONMENT": "PRODUCTION",
+        "COMMON_HEADERS": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "accept": "application/json"
+        },
+        "ENDPOINT_SPECIFIC_HEADERS": [
+          {
+            "ENDPOINT_IDENTIFIER": "Health check",
+            "HEADERS": {
+              "CUSTOM_LOGIN_HEADER": "LoginValue"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

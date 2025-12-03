@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="methods" thread-count="4" verbose="3">
-    <test name="CENTRALIZED FRAMEWORK -TEST RUN SUITE" >
+<suite name="CENTRALIZED FRAMEWORK -TEST RUN SUITE" parallel= "methods" thread-count="4" verbose="2">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
+    </listeners>
+    <test name="API Tests" >
         <classes>
+            <class name="api.tests.ApiTests"/>
+        </classes>
+    </test>
+    <test name="WEB Tests" >
+        <classes>
+            <class name="web.tests.WebTests"/>
+        </classes>
+    </test>
+    <test name="MOBILE Tests" >
+        <classes>
+            <class name="mobile.tests.MobileTests"/>
         </classes>
     </test>
 </suite>

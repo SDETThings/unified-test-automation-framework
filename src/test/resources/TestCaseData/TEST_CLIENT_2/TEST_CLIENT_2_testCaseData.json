@@ -1,0 +1,44 @@
+{
+  "TEST_CASES": [
+    {
+      "TEST_CASE_ID": "Validate health of Practice Extend application API",
+      "TYPE": [
+        {
+          "COMPONENT": "API",
+          "ITERATION": [
+            {
+              "ITERATION_NUMBER": 1,
+              "ACTIVE": "Y",
+              "DESCRIPTION": "Validate of the Practice extend application is healthy",
+              "ITERATION_DETAILS": [
+                {
+                  "ENDPOINT_DETAILS": [
+                    {
+                      "ENDPOINTS": [
+                        {
+                          "ENDPOINT_NAME": "Health check",
+                          "TEST_DATA": [
+                            {
+                              "DYNAMIC_REQUEST_PAYLOAD_FIELDS": {
+
+                              },
+                              "EXPECTED_RESPONSE_PAYLOAD": {
+                                "success": true,
+                                "status": 200,
+                                "message": "Notes API is Running"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
