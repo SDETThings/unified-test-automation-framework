@@ -12,53 +12,30 @@ Response Body  : {
     "message": "Notes API is Running"
 }
 
-
-====================== API REQUEST ======================
-HTTP Method   : POST
-Request URL   : https://practice.expandtesting.com/notes/api/users/register
-Headers       : {accept=application/json}
-Request Body  : {"name":"KuaslaakAHu","email":"KuaslsaBZhA@gmail.com","password":"biswads@123"}
-Status Code  : 201
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 201,
-    "message": "User account created successfully",
-    "data": {
-        "id": "69301941b1c39f029819b19e",
-        "name": "KuaslaakAHu",
-        "email": "kuaslsabzha@gmail.com"
-    }
-}
-
-
-====================== API REQUEST ======================
-HTTP Method   : POST
-Request URL   : https://practice.expandtesting.com/notes/api/users/register
-Headers       : {accept=application/json}
-Request Body  : {"name":"KuaslaauBcY","email":"KuaslsaUmXP@gmail.com","password":"biswads@123"}
-Status Code  : 201
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 201,
-    "message": "User account created successfully",
-    "data": {
-        "id": "69301941b1c39f029819b19c",
-        "name": "KuaslaauBcY",
-        "email": "kuaslsaumxp@gmail.com"
-    }
-}
-
 ✅ Status Code Validation Passed: Expected 200 and received 200
 
-✅ Status Code Validation Passed: Expected 201 and received 201
-
-✅ Status Code Validation Passed: Expected 201 and received 201
-
 ✅ No mismatches found for response validation.
 
-✅ No mismatches found for response validation.
+
+====================== API REQUEST ======================
+HTTP Method   : POST
+Request URL   : https://practice.expandtesting.com/notes/api/users/register
+Headers       : {accept=application/json}
+Request Body  : {"name":"KuaslaapYMw","email":"KuaslsaYlkc@gmail.com","password":"biswads@123"}
+Status Code  : 201
+Response Time : 0 ms
+Response Body  : {
+    "success": true,
+    "status": 201,
+    "message": "User account created successfully",
+    "data": {
+        "id": "6931170ab1c39f029819d8a0",
+        "name": "KuaslaapYMw",
+        "email": "kuaslsaylkc@gmail.com"
+    }
+}
+
+✅ Status Code Validation Passed: Expected 201 and received 201
 
 ✅ No mismatches found for response validation.
 
@@ -67,7 +44,7 @@ Response Body  : {
 HTTP Method   : POST
 Request URL   : https://practice.expandtesting.com/notes/api/users/login
 Headers       : {accept=application/json}
-Request Body  : {"email":"kuaslsabzha@gmail.com","password":"biswads@123"}
+Request Body  : {"email":"kuaslsaylkc@gmail.com","password":"biswads@123"}
 Status Code  : 200
 Response Time : 0 ms
 Response Body  : {
@@ -75,10 +52,10 @@ Response Body  : {
     "status": 200,
     "message": "Login successful",
     "data": {
-        "id": "69301941b1c39f029819b19e",
-        "name": "KuaslaakAHu",
-        "email": "kuaslsabzha@gmail.com",
-        "token": "9541cec457d046018422021c403fea285614add4cf0b417ebdb37cd8a85facf2"
+        "id": "6931170ab1c39f029819d8a0",
+        "name": "KuaslaapYMw",
+        "email": "kuaslsaylkc@gmail.com",
+        "token": "5ef0da56bd3549ca9b54cac24a8e96d3f1ab7c94130c4a48b646d4ab08aa8df9"
     }
 }
 
@@ -86,107 +63,12 @@ Response Body  : {
 
 ✅ No mismatches found for response validation.
 
-Attempt 1 to perform action: Get page title on locator
-Get page title succeeded on locator attempt 1
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
-Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=2 >> xpath=.
-Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=2 >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
-Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
-Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. attempt 1
-✅ All items are added to cart
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
-Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. for attempt 1: Error {
-  message='Timeout 20000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 20000ms exceeded.
-    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-8335512796068267288\package\lib\server\progress.js:75:26)
-    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-8335512796068267288\package\lib\server\frames.js:628:23)
-    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-8335512796068267288\package\lib\server\dispatchers\frameDispatcher.js:107:103)
-    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-8335512796068267288\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-8335512796068267288\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
-
-Action 'Click element' on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. failed after 1 attempts
-Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
-Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
-Attempt 1 to perform action: Click element on *[@id='checkoutModal']/div/div/div/p/a
-Click element succeeded on locator *[@id='checkoutModal']/div/div/div/p/a attempt 1
-Attempt 1 to perform action: Type text on *[@data-qa='login-email']
-Type text succeeded on locator *[@data-qa='login-email'] attempt 1
-Attempt 1 to perform action: Type text on *[@data-qa='login-password']
-Type text succeeded on locator *[@data-qa='login-password'] attempt 1
-Attempt 1 to perform action: Click element on *[@data-qa='login-button']
-
-====================== API REQUEST ======================
-HTTP Method   : GET
-Request URL   : https://practice.expandtesting.com/notes/api/health-check
-Headers       : {accept=application/json}
-Request Body  : <EMPTY>
-Status Code  : 200
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 200,
-    "message": "Notes API is Running"
-}
-
 
 ====================== API REQUEST ======================
 HTTP Method   : POST
 Request URL   : https://practice.expandtesting.com/notes/api/users/register
 Headers       : {accept=application/json}
-Request Body  : {"name":"KuaslaaTRrd","email":"KuaslsaEXwu@gmail.com","password":"biswads@123"}
+Request Body  : {"name":"KunassalaoVYo","email":"Kuaslsassaservpjt@gmail.com","password":"biswads@123"}
 Status Code  : 201
 Response Time : 0 ms
 Response Body  : {
@@ -194,40 +76,13 @@ Response Body  : {
     "status": 201,
     "message": "User account created successfully",
     "data": {
-        "id": "69301cadb1c39f029819b1d9",
-        "name": "KuaslaaTRrd",
-        "email": "kuaslsaexwu@gmail.com"
-    }
-}
-
-
-====================== API REQUEST ======================
-HTTP Method   : POST
-Request URL   : https://practice.expandtesting.com/notes/api/users/register
-Headers       : {accept=application/json}
-Request Body  : {"name":"KuaslaayxmO","email":"KuaslsaUAnw@gmail.com","password":"biswads@123"}
-Status Code  : 201
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 201,
-    "message": "User account created successfully",
-    "data": {
-        "id": "69301cadb1c39f029819b1d7",
-        "name": "KuaslaayxmO",
-        "email": "kuaslsauanw@gmail.com"
+        "id": "6931170bb1c39f029819d8a7",
+        "name": "KunassalaoVYo",
+        "email": "kuaslsassaservpjt@gmail.com"
     }
 }
 
 ✅ Status Code Validation Passed: Expected 201 and received 201
-
-✅ Status Code Validation Passed: Expected 201 and received 201
-
-✅ Status Code Validation Passed: Expected 200 and received 200
-
-✅ No mismatches found for response validation.
-
-✅ No mismatches found for response validation.
 
 ✅ No mismatches found for response validation.
 
@@ -236,7 +91,7 @@ Response Body  : {
 HTTP Method   : POST
 Request URL   : https://practice.expandtesting.com/notes/api/users/login
 Headers       : {accept=application/json}
-Request Body  : {"email":"kuaslsauanw@gmail.com","password":"biswads@123"}
+Request Body  : {"email":"kuaslsassaservpjt@gmail.com","password":"biswads@123"}
 Status Code  : 200
 Response Time : 0 ms
 Response Body  : {
@@ -244,34 +99,10 @@ Response Body  : {
     "status": 200,
     "message": "Login successful",
     "data": {
-        "id": "69301cadb1c39f029819b1d7",
-        "name": "KuaslaayxmO",
-        "email": "kuaslsauanw@gmail.com",
-        "token": "15dccf01c28444219ee439fe7ae8c8a336bc379d2c9d4bf09984c1d08ddd061e"
-    }
-}
-
-✅ Status Code Validation Passed: Expected 200 and received 200
-
-✅ No mismatches found for response validation.
-
-
-====================== API REQUEST ======================
-HTTP Method   : POST
-Request URL   : https://practice.expandtesting.com/notes/api/users/login
-Headers       : {accept=application/json}
-Request Body  : {"email":"kuaslsaexwu@gmail.com","password":"biswads@123"}
-Status Code  : 200
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 200,
-    "message": "Login successful",
-    "data": {
-        "id": "69301cadb1c39f029819b1d9",
-        "name": "KuaslaaTRrd",
-        "email": "kuaslsaexwu@gmail.com",
-        "token": "aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b"
+        "id": "6931170bb1c39f029819d8a7",
+        "name": "KunassalaoVYo",
+        "email": "kuaslsassaservpjt@gmail.com",
+        "token": "25d295bea9414139a915e753ad0852fe9095e04d66d84bf3ac9df4eeea76c706"
     }
 }
 
@@ -284,7 +115,7 @@ Response Body  : {
 HTTP Method   : POST
 Request URL   : https://practice.expandtesting.com/notes/api/users/register
 Headers       : {accept=application/json}
-Request Body  : {"name":"KunassalaNFSp","email":"KuaslsassaserNEUv@gmail.com","password":"biswads@123"}
+Request Body  : {"name":"KuaslaaNGqs","email":"KuaslsaSqWi@gmail.com","password":"biswads@123"}
 Status Code  : 201
 Response Time : 0 ms
 Response Body  : {
@@ -292,13 +123,37 @@ Response Body  : {
     "status": 201,
     "message": "User account created successfully",
     "data": {
-        "id": "69301cb0b1c39f029819b1e6",
-        "name": "KunassalaNFSp",
-        "email": "kuaslsassaserneuv@gmail.com"
+        "id": "6931170db1c39f029819d8ae",
+        "name": "KuaslaaNGqs",
+        "email": "kuaslsasqwi@gmail.com"
     }
 }
 
 ✅ Status Code Validation Passed: Expected 201 and received 201
+
+✅ No mismatches found for response validation.
+
+
+====================== API REQUEST ======================
+HTTP Method   : POST
+Request URL   : https://practice.expandtesting.com/notes/api/users/login
+Headers       : {accept=application/json}
+Request Body  : {"email":"kuaslsasqwi@gmail.com","password":"biswads@123"}
+Status Code  : 200
+Response Time : 0 ms
+Response Body  : {
+    "success": true,
+    "status": 200,
+    "message": "Login successful",
+    "data": {
+        "id": "6931170db1c39f029819d8ae",
+        "name": "KuaslaaNGqs",
+        "email": "kuaslsasqwi@gmail.com",
+        "token": "3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec"
+    }
+}
+
+✅ Status Code Validation Passed: Expected 200 and received 200
 
 ✅ No mismatches found for response validation.
 
@@ -306,8 +161,8 @@ Response Body  : {
 ====================== API REQUEST ======================
 HTTP Method   : POST
 Request URL   : https://practice.expandtesting.com/notes/api/notes
-Headers       : {x-auth-token=aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b, accept=application/json}
-Request Body  : {"title":"My note - 60","description":"My note number - 60","category":"Personal"}
+Headers       : {x-auth-token=3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec, accept=application/json}
+Request Body  : {"title":"My note - 10","description":"My note number - 10","category":"Personal"}
 Status Code  : 200
 Response Time : 0 ms
 Response Body  : {
@@ -315,14 +170,14 @@ Response Body  : {
     "status": 200,
     "message": "Note successfully created",
     "data": {
-        "id": "69301cb0b1c39f029819b1e8",
-        "title": "My note - 60",
-        "description": "My note number - 60",
+        "id": "6931170eb1c39f029819d8b6",
+        "title": "My note - 10",
+        "description": "My note number - 10",
         "category": "Personal",
         "completed": false,
-        "created_at": "2025-12-03T11:19:12.853Z",
-        "updated_at": "2025-12-03T11:19:12.853Z",
-        "user_id": "69301cadb1c39f029819b1d9"
+        "created_at": "2025-12-04T05:07:26.622Z",
+        "updated_at": "2025-12-04T05:07:26.622Z",
+        "user_id": "6931170db1c39f029819d8ae"
     }
 }
 
@@ -334,7 +189,7 @@ Response Body  : {
 ====================== API REQUEST ======================
 HTTP Method   : GET
 Request URL   : https://practice.expandtesting.com/notes/api/notes
-Headers       : {x-auth-token=aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b, accept=application/json}
+Headers       : {x-auth-token=3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec, accept=application/json}
 Request Body  : <EMPTY>
 Status Code  : 200
 Response Time : 0 ms
@@ -344,51 +199,27 @@ Response Body  : {
     "message": "Notes successfully retrieved",
     "data": [
         {
-            "id": "69301cb0b1c39f029819b1e8",
-            "title": "My note - 60",
-            "description": "My note number - 60",
+            "id": "6931170eb1c39f029819d8b6",
+            "title": "My note - 10",
+            "description": "My note number - 10",
             "category": "Personal",
             "completed": false,
-            "created_at": "2025-12-03T11:19:12.853Z",
-            "updated_at": "2025-12-03T11:19:12.853Z",
-            "user_id": "69301cadb1c39f029819b1d9"
+            "created_at": "2025-12-04T05:07:26.622Z",
+            "updated_at": "2025-12-04T05:07:26.622Z",
+            "user_id": "6931170db1c39f029819d8ae"
         }
     ]
 }
 
 ✅ Status Code Validation Passed: Expected 200 and received 200
 
-
-====================== API REQUEST ======================
-HTTP Method   : POST
-Request URL   : https://practice.expandtesting.com/notes/api/users/login
-Headers       : {accept=application/json}
-Request Body  : {"email":"kuaslsassaserneuv@gmail.com","password":"biswads@123"}
-Status Code  : 200
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 200,
-    "message": "Login successful",
-    "data": {
-        "id": "69301cb0b1c39f029819b1e6",
-        "name": "KunassalaNFSp",
-        "email": "kuaslsassaserneuv@gmail.com",
-        "token": "a5de5632525b429fa228063be6304cc02dff36abacea411e9d5916fd11141e7f"
-    }
-}
-
-✅ Status Code Validation Passed: Expected 200 and received 200
-
-✅ No mismatches found for response validation.
-
 ✅ No mismatches found for response validation.
 
 
 ====================== API REQUEST ======================
 HTTP Method   : GET
-Request URL   : https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8
-Headers       : {x-auth-token=aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b, accept=application/json}
+Request URL   : https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6
+Headers       : {x-auth-token=3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec, accept=application/json}
 Request Body  : <EMPTY>
 Status Code  : 200
 Response Time : 0 ms
@@ -397,14 +228,14 @@ Response Body  : {
     "status": 200,
     "message": "Note successfully retrieved",
     "data": {
-        "id": "69301cb0b1c39f029819b1e8",
-        "title": "My note - 60",
-        "description": "My note number - 60",
+        "id": "6931170eb1c39f029819d8b6",
+        "title": "My note - 10",
+        "description": "My note number - 10",
         "category": "Personal",
         "completed": false,
-        "created_at": "2025-12-03T11:19:12.853Z",
-        "updated_at": "2025-12-03T11:19:12.853Z",
-        "user_id": "69301cadb1c39f029819b1d9"
+        "created_at": "2025-12-04T05:07:26.622Z",
+        "updated_at": "2025-12-04T05:07:26.622Z",
+        "user_id": "6931170db1c39f029819d8ae"
     }
 }
 
@@ -415,9 +246,9 @@ Response Body  : {
 
 ====================== API REQUEST ======================
 HTTP Method   : PUT
-Request URL   : https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8
-Headers       : {x-auth-token=aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b, accept=application/json}
-Request Body  : {"title":"My note - 60 - updated","description":"My note number - 60 - updated","completed":true,"category":"Personal"}
+Request URL   : https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6
+Headers       : {x-auth-token=3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec, accept=application/json}
+Request Body  : {"title":"My note - 10 - updated","description":"My note number - 10 - updated","completed":true,"category":"Personal"}
 Status Code  : 200
 Response Time : 0 ms
 Response Body  : {
@@ -425,14 +256,14 @@ Response Body  : {
     "status": 200,
     "message": "Note successfully Updated",
     "data": {
-        "id": "69301cb0b1c39f029819b1e8",
-        "title": "My note - 60 - updated",
-        "description": "My note number - 60 - updated",
+        "id": "6931170eb1c39f029819d8b6",
+        "title": "My note - 10 - updated",
+        "description": "My note number - 10 - updated",
         "category": "Personal",
         "completed": true,
-        "created_at": "2025-12-03T11:19:12.853Z",
-        "updated_at": "2025-12-03T11:19:15.006Z",
-        "user_id": "69301cadb1c39f029819b1d9"
+        "created_at": "2025-12-04T05:07:26.622Z",
+        "updated_at": "2025-12-04T05:07:28.322Z",
+        "user_id": "6931170db1c39f029819d8ae"
     }
 }
 
@@ -443,8 +274,8 @@ Response Body  : {
 
 ====================== API REQUEST ======================
 HTTP Method   : DELETE
-Request URL   : https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8
-Headers       : {x-auth-token=aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b, accept=application/json}
+Request URL   : https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6
+Headers       : {x-auth-token=3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec, accept=application/json}
 Request Body  : <EMPTY>
 Status Code  : 200
 Response Time : 0 ms
@@ -461,8 +292,8 @@ Response Body  : {
 
 ====================== API REQUEST ======================
 HTTP Method   : GET
-Request URL   : https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8
-Headers       : {x-auth-token=aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b, accept=application/json}
+Request URL   : https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6
+Headers       : {x-auth-token=3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec, accept=application/json}
 Request Body  : <EMPTY>
 Status Code  : 404
 Response Time : 0 ms
@@ -484,12 +315,76 @@ Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a
 Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=1
-Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
+Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=1
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
+Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
+Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
+Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=2 >> xpath=.
+Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=2 >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=0
+Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
+Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
@@ -500,15 +395,128 @@ Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/d
 Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2 attempt 1
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
+Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3 attempt 1
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
+Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
+Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
+Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. attempt 1
+=========================================================================
+✅ All items are added to cart
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
+Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. for attempt 1: Error {
+  message='Timeout 20000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 20000ms exceeded.
+    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\frames.js:628:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\frameDispatcher.js:107:103)
+    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
+
+Action 'Click element' on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. failed after 1 attempts
+=========================================================================
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
+Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='checkoutModal']/div/div/div/p/a
+Click element succeeded on locator *[@id='checkoutModal']/div/div/div/p/a attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@data-qa='login-email']
+Type text succeeded on locator *[@data-qa='login-email'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@data-qa='login-password']
+Type text succeeded on locator *[@data-qa='login-password'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@data-qa='login-button']
+Click element succeeded on locator *[@data-qa='login-button'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=0
+Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=1
+Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
+Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
+Click element succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
+Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@id='ordermsg']/textarea
+Type text succeeded on locator *[@id='ordermsg']/textarea attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[text()='Place Order']
+Click element succeeded on locator *[text()='Place Order'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='name_on_card']
+Type text succeeded on locator *[@name='name_on_card'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='card_number']
+Type text succeeded on locator *[@name='card_number'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='cvc']
+Type text succeeded on locator *[@name='cvc'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='expiry_month']
+Type text succeeded on locator *[@name='expiry_month'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='expiry_year']
+Type text succeeded on locator *[@name='expiry_year'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@data-qa='pay-button']
+Click element succeeded on locator *[@data-qa='pay-button'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[text()='Congratulations! Your order has been confirmed!']
+Get element text succeeded on locator *[text()='Congratulations! Your order has been confirmed!'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='form']/div/div/div/a
+Click element succeeded on locator *[@id='form']/div/div/div/a attempt 1
+=========================================================================
 Attempt 1 to perform action: Get page title on locator
 Get page title succeeded on locator attempt 1
 =========================================================================
@@ -518,6 +526,207 @@ Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 a
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
+Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
+Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
+Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
+Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=2 >> xpath=.
+Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=2 >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=0
+Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
+Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
+Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
+Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
+Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
+Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. attempt 1
+=========================================================================
+✅ All items are added to cart
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
+Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. for attempt 1: Error {
+  message='Timeout 20000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 20000ms exceeded.
+    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\frames.js:628:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\frameDispatcher.js:107:103)
+    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
+
+Action 'Click element' on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. failed after 1 attempts
+=========================================================================
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
+Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='checkoutModal']/div/div/div/p/a
+Click element succeeded on locator *[@id='checkoutModal']/div/div/div/p/a attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@data-qa='login-email']
+Type text succeeded on locator *[@data-qa='login-email'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@data-qa='login-password']
+Type text succeeded on locator *[@data-qa='login-password'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@data-qa='login-button']
+Click element succeeded on locator *[@data-qa='login-button'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=0
+Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=0 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=1
+Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
+Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
+Click element succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
+Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@id='ordermsg']/textarea
+Type text succeeded on locator *[@id='ordermsg']/textarea attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[text()='Place Order']
+Click element succeeded on locator *[text()='Place Order'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='name_on_card']
+Type text succeeded on locator *[@name='name_on_card'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='card_number']
+Type text succeeded on locator *[@name='card_number'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='cvc']
+Type text succeeded on locator *[@name='cvc'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='expiry_month']
+Type text succeeded on locator *[@name='expiry_month'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Type text on *[@name='expiry_year']
+Type text succeeded on locator *[@name='expiry_year'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@data-qa='pay-button']
+Click element succeeded on locator *[@data-qa='pay-button'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[text()='Congratulations! Your order has been confirmed!']
+Get element text succeeded on locator *[text()='Congratulations! Your order has been confirmed!'] attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='form']/div/div/div/a
+Click element succeeded on locator *[@id='form']/div/div/div/a attempt 1
+=========================================================================
 Attempt 1 to perform action: Get page title on locator
 Get page title succeeded on locator attempt 1
 =========================================================================
@@ -539,259 +748,19 @@ Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Click element on *[@class='shop-menu pull-right']/ul/li/a >> nth=3
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
-Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=2 >> xpath=.
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
 Click element succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=3 attempt 1
 =========================================================================
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
 =========================================================================
 Attempt 1 to perform action: Click element on *[@id='checkoutModal']/div/div/div/p/a
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
-Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=2 >> xpath=.
-Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=2 >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=1
-Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=1
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4
-Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=2 >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
-Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
-Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
-Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@class='single-products']/div >> xpath=.
-Click element succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@id='cartModal']/div/div/div >> nth=1
-Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
 Click element failed on locator *[@id='checkoutModal']/div/div/div/p/a for attempt 1: Error {
   message='Timeout 20000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 20000ms exceeded.
-    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\progress.js:75:26)
-    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\frames.js:628:23)
-    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\frameDispatcher.js:107:103)
-    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\frames.js:628:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\frameDispatcher.js:107:103)
+    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator("//*[@id='checkoutModal']/div/div/div/p/a")
@@ -809,11 +778,6 @@ Type text succeeded on locator *[@data-qa='login-password'] attempt 1
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Click element on *[@data-qa='login-button']
-Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. attempt 1
-=========================================================================
-✅ All items are added to cart
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
 Click element succeeded on locator *[@data-qa='login-button'] attempt 1
 =========================================================================
 =========================================================================
@@ -988,77 +952,18 @@ Get element text succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 at
 Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
 Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. attempt 1
 =========================================================================
-Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. for attempt 1: Error {
-  message='Timeout 20000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 20000ms exceeded.
-    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\progress.js:75:26)
-    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\frames.js:628:23)
-    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\frameDispatcher.js:107:103)
-    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
-
-Action 'Click element' on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. failed after 1 attempts
-=========================================================================
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
 ✅ All items are added to cart
 =========================================================================
 Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
-Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='checkoutModal']/div/div/div/p/a
-Click element succeeded on locator *[@id='checkoutModal']/div/div/div/p/a attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@data-qa='login-email']
-Type text succeeded on locator *[@data-qa='login-email'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@data-qa='login-password']
-Type text succeeded on locator *[@data-qa='login-password'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@data-qa='login-button']
-Click element succeeded on locator *[@data-qa='login-button'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=0
-Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=1
-Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=1 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
-Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
-Click element succeeded on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. attempt 1
-=========================================================================
-✅ All items are added to cart
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='cartModal']/div/div/div >> nth=1 >> xpath=.
-Click element succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
 Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. for attempt 1: Error {
   message='Timeout 20000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 20000ms exceeded.
-    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\progress.js:75:26)
-    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\frames.js:628:23)
-    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\frameDispatcher.js:107:103)
-    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\frames.js:628:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\frameDispatcher.js:107:103)
+    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
@@ -1071,38 +976,6 @@ Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
 Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Type text on *[@id='ordermsg']/textarea
-Type text succeeded on locator *[@id='ordermsg']/textarea attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[text()='Place Order']
-Click element succeeded on locator *[text()='Place Order'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='name_on_card']
-Type text succeeded on locator *[@name='name_on_card'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='card_number']
-Type text succeeded on locator *[@name='card_number'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='cvc']
-Type text succeeded on locator *[@name='cvc'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='expiry_month']
-Type text succeeded on locator *[@name='expiry_month'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='expiry_year']
-Type text succeeded on locator *[@name='expiry_year'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@data-qa='pay-button']
-Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
-=========================================================================
-=========================================================================
 Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=0
 Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=0 attempt 1
 =========================================================================
@@ -1116,104 +989,6 @@ Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Click element on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
-Click element succeeded on locator *[@data-qa='pay-button'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[text()='Congratulations! Your order has been confirmed!']
-Get element text succeeded on locator *[text()='Congratulations! Your order has been confirmed!'] attempt 1
-=========================================================================
-Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. for attempt 1: Error {
-  message='Timeout 20000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 20000ms exceeded.
-    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\progress.js:75:26)
-    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\frames.js:628:23)
-    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\frameDispatcher.js:107:103)
-    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
-
-Action 'Click element' on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath=. failed after 1 attempts
-=========================================================================
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
-Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='checkoutModal']/div/div/div/p/a
-Click element succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='do_action']/div/div/div/a
-Click element succeeded on locator *[@id='checkoutModal']/div/div/div/p/a attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@data-qa='login-email']
-Type text succeeded on locator *[@data-qa='login-email'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@data-qa='login-password']
-Type text succeeded on locator *[@data-qa='login-password'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@data-qa='login-button']
-Click element succeeded on locator *[@id='do_action']/div/div/div/a attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@id='ordermsg']/textarea
-Type text succeeded on locator *[@id='ordermsg']/textarea attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[text()='Place Order']
-Click element succeeded on locator *[@data-qa='login-button'] attempt 1
-=========================================================================
-Click element succeeded on locator *[text()='Place Order'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='name_on_card']
-Type text succeeded on locator *[@name='name_on_card'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='card_number']
-Type text succeeded on locator *[@name='card_number'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='cvc']
-Type text succeeded on locator *[@name='cvc'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='expiry_month']
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=0
-Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=0 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=1
-Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=1 attempt 1
-=========================================================================
-Type text succeeded on locator *[@name='expiry_month'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Type text on *[@name='expiry_year']
-=========================================================================
-Attempt 1 to perform action: Get element text on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
-Get element text succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@class='shop-menu pull-right']/ul/li/a >> nth=2
-Type text succeeded on locator *[@name='expiry_year'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@data-qa='pay-button']
-Click element succeeded on locator *[@data-qa='pay-button'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Get element text on *[text()='Congratulations! Your order has been confirmed!']
-Get element text succeeded on locator *[text()='Congratulations! Your order has been confirmed!'] attempt 1
-=========================================================================
 Click element succeeded on locator *[@class='shop-menu pull-right']/ul/li/a >> nth=2 attempt 1
 =========================================================================
 =========================================================================
@@ -1255,10 +1030,6 @@ Click element succeeded on locator *[@data-qa='pay-button'] attempt 1
 =========================================================================
 Attempt 1 to perform action: Get element text on *[text()='Congratulations! Your order has been confirmed!']
 Get element text succeeded on locator *[text()='Congratulations! Your order has been confirmed!'] attempt 1
-=========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='form']/div/div/div/a
-Click element succeeded on locator *[@id='form']/div/div/div/a attempt 1
 =========================================================================
 Attempt 1 to perform action: Get page title on locator
 Get page title succeeded on locator attempt 1
@@ -1268,16 +1039,32 @@ Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a
 Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=1
+Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=1
+Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
 Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0 attempt 1
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3
+Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3 attempt 1
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
@@ -1336,8 +1123,12 @@ Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a
 Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=0
-Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=0 attempt 1
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div/h4/a >> nth=1
+Get element text succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div/h4/a >> nth=1
+Click element succeeded on locator *[@id='accordian']/div/div/h4/a >> nth=1 attempt 1
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=0
@@ -1348,8 +1139,52 @@ Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/d
 Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
 =========================================================================
 =========================================================================
-Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1
-Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=1 attempt 1
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=2 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=3 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4
+Get element text succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Click element on *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4
+Click element succeeded on locator *[@id='accordian']/div/div[2]/div/ul/li/a >> nth=4 attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
+=========================================================================
+=========================================================================
+Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
+Get element text succeeded on locator *[@class='single-products']/div >> xpath=. attempt 1
 =========================================================================
 =========================================================================
 Attempt 1 to perform action: Get element text on *[@class='single-products']/div >> xpath=.
@@ -1378,11 +1213,11 @@ Click element failed on locator *[@id='cartModal']/div/div/div >> nth=1 >> xpath
   message='Timeout 20000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 20000ms exceeded.
-    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\progress.js:75:26)
-    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\frames.js:628:23)
-    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\frameDispatcher.js:107:103)
-    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-681537046129816004\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\frames.js:628:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\frameDispatcher.js:107:103)
+    at FrameDispatcher._handleCommand (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Kunal\AppData\Local\Temp\playwright-java-18446092824925226506\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator("//*[@id='cartModal']/div/div/div").nth(1).locator("xpath=.//p/a")
@@ -1466,46 +1301,3 @@ Click element succeeded on locator *[@data-qa='pay-button'] attempt 1
 Attempt 1 to perform action: Get element text on *[text()='Congratulations! Your order has been confirmed!']
 Get element text succeeded on locator *[text()='Congratulations! Your order has been confirmed!'] attempt 1
 =========================================================================
-=========================================================================
-Attempt 1 to perform action: Click element on *[@id='form']/div/div/div/a
-Click element succeeded on locator *[@id='form']/div/div/div/a attempt 1
-=========================================================================
-
-====================== API REQUEST ======================
-HTTP Method   : GET
-Request URL   : https://practice.expandtesting.com/notes/api/health-check
-Headers       : {accept=application/json}
-Request Body  : <EMPTY>
-Status Code  : 200
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 200,
-    "message": "Notes API is Running"
-}
-
-✅ Status Code Validation Passed: Expected 200 and received 200
-
-✅ No mismatches found for response validation.
-
-
-====================== API REQUEST ======================
-HTTP Method   : POST
-Request URL   : https://practice.expandtesting.com/notes/api/users/register
-Headers       : {accept=application/json}
-Request Body  : {"name":"Kuaslaaabvt","email":"KuaslsafMYg@gmail.com","password":"biswads@123"}
-Status Code  : 201
-Response Time : 0 ms
-Response Body  : {
-    "success": true,
-    "status": 201,
-    "message": "User account created successfully",
-    "data": {
-        "id": "69307363b1c39f029819d236",
-        "name": "Kuaslaaabvt",
-        "email": "kuaslsafmyg@gmail.com"
-    }
-}
-
-✅ Status Code Validation Passed: Expected 201 and received 201
-

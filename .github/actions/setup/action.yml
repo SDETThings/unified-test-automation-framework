@@ -12,6 +12,7 @@ inputs:
 runs:
   using: composite
   steps:
+
     - name: Checkout Repository
       uses: actions/checkout@v4
 
@@ -36,4 +37,4 @@ runs:
     - name: Install Playwright Browsers
       shell: bash
       run: |
-        mvn exec:java -e -Dexec.mainClass="com.microsoft.playwright.CLI" -Dexec.args="install"
+        mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
