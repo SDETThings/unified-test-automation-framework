@@ -1,4 +1,3 @@
-✅ README.md — Unified Test Automation Framework
 Unified Test Automation Framework
 
 A scalable, modular, and unified automation framework designed for Web UI (Selenium & Playwright), API (REST Assured), and Hybrid testing. The framework is built using Java + TestNG, supports parallel execution, integrates with BrowserStack,
