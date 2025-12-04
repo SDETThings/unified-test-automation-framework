@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Test automation report</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 4m 48s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-12-03 04:49:06 pm</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-12-03 04:53:54 pm</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 5m 28s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-12-04 10:37:18 am</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-12-04 10:42:47 am</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -114,11 +114,11 @@
             <div class="col-4">
               <h6 class="mb-3 testname fs-6 passed">CENTRALIZED FRAMEWORK -TEST RUN SUITE</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 4m 47s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 5m 28s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-12-03 04:49:06 pm</span>
+                  2025-12-04 10:37:18 am</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-12-03 04:53:54 pm</span>
+                  2025-12-04 10:42:46 am</span>
               </div>
               
             </div>
@@ -131,7 +131,7 @@
                         <span class="fs-6 ms-2">api.tests.ApiTests</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">9s</span>
+                        <span class="badge text-dark bg-light">11s</span>
                       </div>
                     </div>
                     
@@ -140,255 +140,10 @@
       <div class="d-flex justify-content-between mt-3">
         <div>
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">PE0002 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">5s</span>
-        </div>
-      </div>
-      <p class="desc">Validate customer is able to register successfully using Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate customer is able to register successfully using Practice Extend application API","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"User Registration","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"name":"Kuaslaa","email":"Kuaslsa@gmail.com","password":"biswads@123"},"EXPECTED_RESPONSE_PAYLOAD":{"data.id":"not null","data.name":"%name","data.email":"%email"}}]},{"ENDPOINT_NAME":"User Login","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"email":"%data.email","password":"%password"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Login successful","data.id":"%data.id","data.name":"%data.name","data.email":"%data.email","data.token":"not null"}}]}]}]}]}]</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-********************************************************
-{POST} - https://practice.expandtesting.com/notes/api/users/register(0ms)
-Request Body:
-{
-  "name": "KuaslaayxmO",
-  "email": "KuaslsaUAnw@gmail.com",
-  "password": "biswads@123"
-}
-Response Status Code:201
-Response Body: 
-{
-  "success": true,
-  "status": 201,
-  "message": "User account created successfully",
-  "data": {
-    "id": "69301cadb1c39f029819b1d7",
-    "name": "KuaslaayxmO",
-    "email": "kuaslsauanw@gmail.com"
-  }
-}
-✅ Status Code Validation Passed: Expected 201 and received 201
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{POST} - https://practice.expandtesting.com/notes/api/users/login(0ms)
-Request Body:
-{
-  "email": "kuaslsauanw@gmail.com",
-  "password": "biswads@123"
-}
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Login successful",
-  "data": {
-    "id": "69301cadb1c39f029819b1d7",
-    "name": "KuaslaayxmO",
-    "email": "kuaslsauanw@gmail.com",
-    "token": "15dccf01c28444219ee439fe7ae8c8a336bc379d2c9d4bf09984c1d08ddd061e"
-  }
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-          </pre>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">PE0003 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">9s</span>
-        </div>
-      </div>
-      <p class="desc">Validate customer is able to create/fetch/update/delete notes using Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate customer is able to create/fetch/update/delete notes using Practice Extend application API","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"User Registration","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"name":"Kuaslaa","email":"Kuaslsa@gmail.com","password":"biswads@123"},"EXPECTED_RESPONSE_PAYLOAD":{"data.id":"not null","data.name":"%name","data.email":"%email"}}]},{"ENDPOINT_NAME":"User Login","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"email":"%data.email","password":"%password"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Login successful","data.id":"%data.id","data.name":"%data.name","data.email":"%data.email","data.token":"not null"}}]},{"ENDPOINT_NAME":"Create Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"title":"My note - ","description":"My note number - ","category":"Personal"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Note successfully created","data.id":"not null","data.title":"%title","data.description":"%description","data.category":"%category","data.completed":false,"data.user_id":"not null"}}]},{"ENDPOINT_NAME":"Fetch All Notes","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Notes successfully retrieved"}}]},{"ENDPOINT_NAME":"Fetch Single Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"FIRST":{"success":true,"message":"Note successfully retrieved","data.id":"%data.id","data.title":"%data.title","data.description":"%data.description","data.category":"%data.category","data.completed":false,"data.user_id":"%data.user_id"},"SECOND":{"success":false,"message":"No note was found with the provided ID, Maybe it was deleted"}}}]},{"ENDPOINT_NAME":"Update Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"title":"%data.title","description":"%data.description","completed":true,"category":"%data.category"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Note successfully Updated","data.id":"%data.id","data.title":"%data.title","data.description":"%data.description","data.category":"%data.category","data.completed":"%data.completed","data.user_id":"%data.user_id"}}]},{"ENDPOINT_NAME":"Delete Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Note successfully deleted"}}]}]}]}]}]</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-********************************************************
-{POST} - https://practice.expandtesting.com/notes/api/users/register(0ms)
-Request Body:
-{
-  "name": "KuaslaaTRrd",
-  "email": "KuaslsaEXwu@gmail.com",
-  "password": "biswads@123"
-}
-Response Status Code:201
-Response Body: 
-{
-  "success": true,
-  "status": 201,
-  "message": "User account created successfully",
-  "data": {
-    "id": "69301cadb1c39f029819b1d9",
-    "name": "KuaslaaTRrd",
-    "email": "kuaslsaexwu@gmail.com"
-  }
-}
-✅ Status Code Validation Passed: Expected 201 and received 201
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{POST} - https://practice.expandtesting.com/notes/api/users/login(0ms)
-Request Body:
-{
-  "email": "kuaslsaexwu@gmail.com",
-  "password": "biswads@123"
-}
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Login successful",
-  "data": {
-    "id": "69301cadb1c39f029819b1d9",
-    "name": "KuaslaaTRrd",
-    "email": "kuaslsaexwu@gmail.com",
-    "token": "aba292078e1549ab8b03c12a9771ab6000a6df74510a48088544eb4879f40c2b"
-  }
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{POST} - https://practice.expandtesting.com/notes/api/notes(0ms)
-Request Body:
-{
-  "title": "My note - 60",
-  "description": "My note number - 60",
-  "category": "Personal"
-}
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Note successfully created",
-  "data": {
-    "id": "69301cb0b1c39f029819b1e8",
-    "title": "My note - 60",
-    "description": "My note number - 60",
-    "category": "Personal",
-    "completed": false,
-    "created_at": "2025-12-03T11:19:12.853Z",
-    "updated_at": "2025-12-03T11:19:12.853Z",
-    "user_id": "69301cadb1c39f029819b1d9"
-  }
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{GET} - https://practice.expandtesting.com/notes/api/notes(0ms)
-Request Body: <EMPTY>
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Notes successfully retrieved",
-  "data": [
-    {
-      "id": "69301cb0b1c39f029819b1e8",
-      "title": "My note - 60",
-      "description": "My note number - 60",
-      "category": "Personal",
-      "completed": false,
-      "created_at": "2025-12-03T11:19:12.853Z",
-      "updated_at": "2025-12-03T11:19:12.853Z",
-      "user_id": "69301cadb1c39f029819b1d9"
-    }
-  ]
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{GET} - https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8(0ms)
-Request Body: <EMPTY>
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Note successfully retrieved",
-  "data": {
-    "id": "69301cb0b1c39f029819b1e8",
-    "title": "My note - 60",
-    "description": "My note number - 60",
-    "category": "Personal",
-    "completed": false,
-    "created_at": "2025-12-03T11:19:12.853Z",
-    "updated_at": "2025-12-03T11:19:12.853Z",
-    "user_id": "69301cadb1c39f029819b1d9"
-  }
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{PUT} - https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8(0ms)
-Request Body:
-{
-  "title": "My note - 60 - updated",
-  "description": "My note number - 60 - updated",
-  "completed": true,
-  "category": "Personal"
-}
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Note successfully Updated",
-  "data": {
-    "id": "69301cb0b1c39f029819b1e8",
-    "title": "My note - 60 - updated",
-    "description": "My note number - 60 - updated",
-    "category": "Personal",
-    "completed": true,
-    "created_at": "2025-12-03T11:19:12.853Z",
-    "updated_at": "2025-12-03T11:19:15.006Z",
-    "user_id": "69301cadb1c39f029819b1d9"
-  }
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{DELETE} - https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8(0ms)
-Request Body: <EMPTY>
-Response Status Code:200
-Response Body: 
-{
-  "success": true,
-  "status": 200,
-  "message": "Note successfully deleted"
-}
-✅ Status Code Validation Passed: Expected 200 and received 200
-✅ API Validation Passed: All fields match expected values
-********************************************************
-{GET} - https://practice.expandtesting.com/notes/api/notes/69301cb0b1c39f029819b1e8(0ms)
-Request Body: <EMPTY>
-Response Status Code:404
-Response Body: 
-{
-  "success": false,
-  "status": 404,
-  "message": "No note was found with the provided ID, Maybe it was deleted"
-}
-✅ Status Code Validation Passed: Expected 404 and received 404
-✅ API Validation Passed: All fields match expected values
-          </pre>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
           <span class="fs-6 ms-2">PE0001 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">4s</span>
+          <span class="badge text-dark bg-light">3s</span>
         </div>
       </div>
       <p class="desc">Validate health of Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate of the Practice extend application is healthy","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"Health check","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"status":200,"message":"Notes API is Running"}}]}]}]}]}]</p>
@@ -419,15 +174,15 @@ Response Body:
           <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
-      <p class="desc">Validate customer is able to register successfully using Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate customer is able to register successfully using Practice Extend application API","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"User Registration","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"name":"Kunassala","email":"Kuaslsassaser@gmail.com","password":"biswads@123"},"EXPECTED_RESPONSE_PAYLOAD":{"data.id":"not null","data.name":"%name","data.email":"%email"}}]},{"ENDPOINT_NAME":"User Login","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"email":"%data.email","password":"%password"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Login successful","data.id":"%data.id","data.name":"%data.name","data.email":"%data.email","data.token":"not null"}}]}]}]}]}]</p>
+      <p class="desc">Validate customer is able to register successfully using Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate customer is able to register successfully using Practice Extend application API","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"User Registration","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"name":"Kuaslaa","email":"Kuaslsa@gmail.com","password":"biswads@123"},"EXPECTED_RESPONSE_PAYLOAD":{"data.id":"not null","data.name":"%name","data.email":"%email"}}]},{"ENDPOINT_NAME":"User Login","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"email":"%data.email","password":"%password"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Login successful","data.id":"%data.id","data.name":"%data.name","data.email":"%data.email","data.token":"not null"}}]}]}]}]}]</p>
         <div class="mt-3 logs d-none">
           <pre class="pb-0">
 ********************************************************
 {POST} - https://practice.expandtesting.com/notes/api/users/register(0ms)
 Request Body:
 {
-  "name": "KunassalaNFSp",
-  "email": "KuaslsassaserNEUv@gmail.com",
+  "name": "KuaslaapYMw",
+  "email": "KuaslsaYlkc@gmail.com",
   "password": "biswads@123"
 }
 Response Status Code:201
@@ -437,9 +192,9 @@ Response Body:
   "status": 201,
   "message": "User account created successfully",
   "data": {
-    "id": "69301cb0b1c39f029819b1e6",
-    "name": "KunassalaNFSp",
-    "email": "kuaslsassaserneuv@gmail.com"
+    "id": "6931170ab1c39f029819d8a0",
+    "name": "KuaslaapYMw",
+    "email": "kuaslsaylkc@gmail.com"
   }
 }
 ✅ Status Code Validation Passed: Expected 201 and received 201
@@ -448,7 +203,7 @@ Response Body:
 {POST} - https://practice.expandtesting.com/notes/api/users/login(0ms)
 Request Body:
 {
-  "email": "kuaslsassaserneuv@gmail.com",
+  "email": "kuaslsaylkc@gmail.com",
   "password": "biswads@123"
 }
 Response Status Code:200
@@ -458,13 +213,258 @@ Response Body:
   "status": 200,
   "message": "Login successful",
   "data": {
-    "id": "69301cb0b1c39f029819b1e6",
-    "name": "KunassalaNFSp",
-    "email": "kuaslsassaserneuv@gmail.com",
-    "token": "a5de5632525b429fa228063be6304cc02dff36abacea411e9d5916fd11141e7f"
+    "id": "6931170ab1c39f029819d8a0",
+    "name": "KuaslaapYMw",
+    "email": "kuaslsaylkc@gmail.com",
+    "token": "5ef0da56bd3549ca9b54cac24a8e96d3f1ab7c94130c4a48b646d4ab08aa8df9"
   }
 }
 ✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+          </pre>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">PE0002 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">1s</span>
+        </div>
+      </div>
+      <p class="desc">Validate customer is able to register successfully using Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate customer is able to register successfully using Practice Extend application API","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"User Registration","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"name":"Kunassala","email":"Kuaslsassaser@gmail.com","password":"biswads@123"},"EXPECTED_RESPONSE_PAYLOAD":{"data.id":"not null","data.name":"%name","data.email":"%email"}}]},{"ENDPOINT_NAME":"User Login","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"email":"%data.email","password":"%password"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Login successful","data.id":"%data.id","data.name":"%data.name","data.email":"%data.email","data.token":"not null"}}]}]}]}]}]</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+********************************************************
+{POST} - https://practice.expandtesting.com/notes/api/users/register(0ms)
+Request Body:
+{
+  "name": "KunassalaoVYo",
+  "email": "Kuaslsassaservpjt@gmail.com",
+  "password": "biswads@123"
+}
+Response Status Code:201
+Response Body: 
+{
+  "success": true,
+  "status": 201,
+  "message": "User account created successfully",
+  "data": {
+    "id": "6931170bb1c39f029819d8a7",
+    "name": "KunassalaoVYo",
+    "email": "kuaslsassaservpjt@gmail.com"
+  }
+}
+✅ Status Code Validation Passed: Expected 201 and received 201
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{POST} - https://practice.expandtesting.com/notes/api/users/login(0ms)
+Request Body:
+{
+  "email": "kuaslsassaservpjt@gmail.com",
+  "password": "biswads@123"
+}
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Login successful",
+  "data": {
+    "id": "6931170bb1c39f029819d8a7",
+    "name": "KunassalaoVYo",
+    "email": "kuaslsassaservpjt@gmail.com",
+    "token": "25d295bea9414139a915e753ad0852fe9095e04d66d84bf3ac9df4eeea76c706"
+  }
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+          </pre>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">PE0003 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">4s</span>
+        </div>
+      </div>
+      <p class="desc">Validate customer is able to create/fetch/update/delete notes using Practice Extend application API<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Validate customer is able to create/fetch/update/delete notes using Practice Extend application API","ITERATION_DETAILS":[{"ENDPOINT_DETAILS":[{"ENDPOINTS":[{"ENDPOINT_NAME":"User Registration","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"name":"Kuaslaa","email":"Kuaslsa@gmail.com","password":"biswads@123"},"EXPECTED_RESPONSE_PAYLOAD":{"data.id":"not null","data.name":"%name","data.email":"%email"}}]},{"ENDPOINT_NAME":"User Login","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"email":"%data.email","password":"%password"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Login successful","data.id":"%data.id","data.name":"%data.name","data.email":"%data.email","data.token":"not null"}}]},{"ENDPOINT_NAME":"Create Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"title":"My note - ","description":"My note number - ","category":"Personal"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Note successfully created","data.id":"not null","data.title":"%title","data.description":"%description","data.category":"%category","data.completed":false,"data.user_id":"not null"}}]},{"ENDPOINT_NAME":"Fetch All Notes","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Notes successfully retrieved"}}]},{"ENDPOINT_NAME":"Fetch Single Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"FIRST":{"success":true,"message":"Note successfully retrieved","data.id":"%data.id","data.title":"%data.title","data.description":"%data.description","data.category":"%data.category","data.completed":false,"data.user_id":"%data.user_id"},"SECOND":{"success":false,"message":"No note was found with the provided ID, Maybe it was deleted"}}}]},{"ENDPOINT_NAME":"Update Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{"title":"%data.title","description":"%data.description","completed":true,"category":"%data.category"},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Note successfully Updated","data.id":"%data.id","data.title":"%data.title","data.description":"%data.description","data.category":"%data.category","data.completed":"%data.completed","data.user_id":"%data.user_id"}}]},{"ENDPOINT_NAME":"Delete Note","TEST_DATA":[{"DYNAMIC_REQUEST_PAYLOAD_FIELDS":{},"EXPECTED_RESPONSE_PAYLOAD":{"success":true,"message":"Note successfully deleted"}}]}]}]}]}]</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+********************************************************
+{POST} - https://practice.expandtesting.com/notes/api/users/register(0ms)
+Request Body:
+{
+  "name": "KuaslaaNGqs",
+  "email": "KuaslsaSqWi@gmail.com",
+  "password": "biswads@123"
+}
+Response Status Code:201
+Response Body: 
+{
+  "success": true,
+  "status": 201,
+  "message": "User account created successfully",
+  "data": {
+    "id": "6931170db1c39f029819d8ae",
+    "name": "KuaslaaNGqs",
+    "email": "kuaslsasqwi@gmail.com"
+  }
+}
+✅ Status Code Validation Passed: Expected 201 and received 201
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{POST} - https://practice.expandtesting.com/notes/api/users/login(0ms)
+Request Body:
+{
+  "email": "kuaslsasqwi@gmail.com",
+  "password": "biswads@123"
+}
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Login successful",
+  "data": {
+    "id": "6931170db1c39f029819d8ae",
+    "name": "KuaslaaNGqs",
+    "email": "kuaslsasqwi@gmail.com",
+    "token": "3cd1d893b21742e68819f5e5cd4b4fb4e180e6730e4746cd8adbfbda4ebd08ec"
+  }
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{POST} - https://practice.expandtesting.com/notes/api/notes(0ms)
+Request Body:
+{
+  "title": "My note - 10",
+  "description": "My note number - 10",
+  "category": "Personal"
+}
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Note successfully created",
+  "data": {
+    "id": "6931170eb1c39f029819d8b6",
+    "title": "My note - 10",
+    "description": "My note number - 10",
+    "category": "Personal",
+    "completed": false,
+    "created_at": "2025-12-04T05:07:26.622Z",
+    "updated_at": "2025-12-04T05:07:26.622Z",
+    "user_id": "6931170db1c39f029819d8ae"
+  }
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{GET} - https://practice.expandtesting.com/notes/api/notes(0ms)
+Request Body: <EMPTY>
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Notes successfully retrieved",
+  "data": [
+    {
+      "id": "6931170eb1c39f029819d8b6",
+      "title": "My note - 10",
+      "description": "My note number - 10",
+      "category": "Personal",
+      "completed": false,
+      "created_at": "2025-12-04T05:07:26.622Z",
+      "updated_at": "2025-12-04T05:07:26.622Z",
+      "user_id": "6931170db1c39f029819d8ae"
+    }
+  ]
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{GET} - https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6(0ms)
+Request Body: <EMPTY>
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Note successfully retrieved",
+  "data": {
+    "id": "6931170eb1c39f029819d8b6",
+    "title": "My note - 10",
+    "description": "My note number - 10",
+    "category": "Personal",
+    "completed": false,
+    "created_at": "2025-12-04T05:07:26.622Z",
+    "updated_at": "2025-12-04T05:07:26.622Z",
+    "user_id": "6931170db1c39f029819d8ae"
+  }
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{PUT} - https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6(0ms)
+Request Body:
+{
+  "title": "My note - 10 - updated",
+  "description": "My note number - 10 - updated",
+  "completed": true,
+  "category": "Personal"
+}
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Note successfully Updated",
+  "data": {
+    "id": "6931170eb1c39f029819d8b6",
+    "title": "My note - 10 - updated",
+    "description": "My note number - 10 - updated",
+    "category": "Personal",
+    "completed": true,
+    "created_at": "2025-12-04T05:07:26.622Z",
+    "updated_at": "2025-12-04T05:07:28.322Z",
+    "user_id": "6931170db1c39f029819d8ae"
+  }
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{DELETE} - https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6(0ms)
+Request Body: <EMPTY>
+Response Status Code:200
+Response Body: 
+{
+  "success": true,
+  "status": 200,
+  "message": "Note successfully deleted"
+}
+✅ Status Code Validation Passed: Expected 200 and received 200
+✅ API Validation Passed: All fields match expected values
+********************************************************
+{GET} - https://practice.expandtesting.com/notes/api/notes/6931170eb1c39f029819d8b6(0ms)
+Request Body: <EMPTY>
+Response Status Code:404
+Response Body: 
+{
+  "success": false,
+  "status": 404,
+  "message": "No note was found with the provided ID, Maybe it was deleted"
+}
+✅ Status Code Validation Passed: Expected 404 and received 404
 ✅ API Validation Passed: All fields match expected values
           </pre>
         </div>
@@ -481,7 +481,7 @@ Response Body:
                         <span class="fs-6 ms-2">web.tests.WebTests</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">4m 37s</span>
+                        <span class="badge text-dark bg-light">5m 16s</span>
                       </div>
                     </div>
                     
@@ -490,32 +490,10 @@ Response Body:
       <div class="d-flex justify-content-between mt-3">
         <div>
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">AE0003 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">1m 29s</span>
-        </div>
-      </div>
-      <p class="desc">Place Order: Register before checkout - WIP<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Order placement - Register during checkout","ITERATION_DETAILS":[{"WEB_PAGES":[{"WEB_PAGE":[{"TEST_DATA":[{"PAGE_NAME":"Universal data","DATA":{"productsToBeAddedToCart":[{"Category":"Men","SubCategory":"TSHIRTS","productName":"Green Side Placket Detail T-Shirt","productPrice":"Rs. 1000"},{"Category":"Men","SubCategory":"Jeans ","productName":"Grunt Blue Slim Fit Jeans","productPrice":"Rs. 1400"}],"username":"kunalbiswas241@gmail.com","password":"Kunalb@123","cardDetails":{"cardName":"Kunal Biswas","cardNumber":"4111111111111111","cvc":"153","expiryMonth":"12","expiryYear":"35"}}}]}]}]}]}]</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-All items are added to cart
-          </pre>
-        </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/7f793480-1b76-4bff-a440-2bde4d2f3d69.png" />
-            </div>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
           <span class="fs-6 ms-2">AE0001 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">2m 35s</span>
+          <span class="badge text-dark bg-light">52s</span>
         </div>
       </div>
       <p class="desc">Place Order: Login during Checkout<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Order placement - Login during checkout","ITERATION_DETAILS":[{"WEB_PAGES":[{"WEB_PAGE":[{"TEST_DATA":[{"PAGE_NAME":"Universal data","DATA":{"productsToBeAddedToCart":[{"Category":"Women","SubCategory":"Dress","productName":"Rose Pink Embroidered Maxi Dress","productPrice":"Rs. 2300"},{"Category":"Women","SubCategory":"Tops ","productName":"Blue Top","productPrice":"Rs. 500"}],"username":"kunalbiswas241@gmail.com","password":"Kunalb@123","cardDetails":{"cardName":"Kunal Biswas","cardNumber":"4111111111111111","cvc":"153","expiryMonth":"12","expiryYear":"35"}}}]}]}]}]}]</p>
@@ -526,29 +504,7 @@ All items are added to cart
         </div>
         <div class="row mt-3">
             <div class="embed col-2 mb-1">
-              <img src="resources/d056867a-b955-4923-8129-336161b92672.png" />
-            </div>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">AE0002 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">1m 43s</span>
-        </div>
-      </div>
-      <p class="desc">Place Order: Login before Checkout<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Order placement - Login before checkout","ITERATION_DETAILS":[{"WEB_PAGES":[{"WEB_PAGE":[{"TEST_DATA":[{"PAGE_NAME":"Universal data","DATA":{"productsToBeAddedToCart":[{"Category":"Men","SubCategory":"TSHIRTS","productName":"Green Side Placket Detail T-Shirt","productPrice":"Rs. 1000"},{"Category":"Men","SubCategory":"Jeans ","productName":"Grunt Blue Slim Fit Jeans","productPrice":"Rs. 1400"}],"username":"jsmith.u1@gmail.com","password":"Kunalb@123","cardDetails":{"cardName":"Kunal Biswas","cardNumber":"4111111111111111","cvc":"153","expiryMonth":"12","expiryYear":"35"}}}]}]}]}]}]</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-All items are added to cart
-          </pre>
-        </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/da0bfef9-3ab3-41c7-8e75-029a127be406.png" />
+              <img src="resources/f7672fae-2c36-4258-a2f3-23f3f5f31044.png" />
             </div>
         </div>
     </div>
@@ -559,7 +515,7 @@ All items are added to cart
           <span class="fs-6 ms-2">AE0001 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">1m 8s</span>
+          <span class="badge text-dark bg-light">53s</span>
         </div>
       </div>
       <p class="desc">Place Order: Login during Checkout<br>[{"ITERATION_NUMBER":2,"ACTIVE":"Y","DESCRIPTION":"Order placement - Login during checkout","ITERATION_DETAILS":[{"WEB_PAGES":[{"WEB_PAGE":[{"TEST_DATA":[{"PAGE_NAME":"Universal data","DATA":{"productsToBeAddedToCart":[{"Category":"Women","SubCategory":"Dress","productName":"Rose Pink Embroidered Maxi Dress","productPrice":"Rs. 2300"},{"Category":"Women","SubCategory":"Tops ","productName":"Blue Top","productPrice":"Rs. 500"}],"username":"jsmith.u1@gmail.com","password":"Kunalb@123","cardDetails":{"cardName":"Kunal Biswas","cardNumber":"4111111111111111","cvc":"153","expiryMonth":"12","expiryYear":"35"}}}]}]}]}]}]</p>
@@ -570,7 +526,51 @@ All items are added to cart
         </div>
         <div class="row mt-3">
             <div class="embed col-2 mb-1">
-              <img src="resources/be112f5e-5554-4c4f-b066-66f8ec50f520.png" />
+              <img src="resources/572c01eb-e87a-430a-b853-75897076c405.png" />
+            </div>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">AE0002 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">1m 14s</span>
+        </div>
+      </div>
+      <p class="desc">Place Order: Login before Checkout<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Order placement - Login before checkout","ITERATION_DETAILS":[{"WEB_PAGES":[{"WEB_PAGE":[{"TEST_DATA":[{"PAGE_NAME":"Universal data","DATA":{"productsToBeAddedToCart":[{"Category":"Men","SubCategory":"TSHIRTS","productName":"Green Side Placket Detail T-Shirt","productPrice":"Rs. 1000"},{"Category":"Men","SubCategory":"Jeans ","productName":"Grunt Blue Slim Fit Jeans","productPrice":"Rs. 1400"}],"username":"jsmith.u1@gmail.com","password":"Kunalb@123","cardDetails":{"cardName":"Kunal Biswas","cardNumber":"4111111111111111","cvc":"153","expiryMonth":"12","expiryYear":"35"}}}]}]}]}]}]</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+All items are added to cart
+          </pre>
+        </div>
+        <div class="row mt-3">
+            <div class="embed col-2 mb-1">
+              <img src="resources/1c5dde37-a2e8-4c43-b19b-5c0486a86455.png" />
+            </div>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">AE0003 <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">55s</span>
+        </div>
+      </div>
+      <p class="desc">Place Order: Register before checkout - WIP<br>[{"ITERATION_NUMBER":1,"ACTIVE":"Y","DESCRIPTION":"Order placement - Register during checkout","ITERATION_DETAILS":[{"WEB_PAGES":[{"WEB_PAGE":[{"TEST_DATA":[{"PAGE_NAME":"Universal data","DATA":{"productsToBeAddedToCart":[{"Category":"Men","SubCategory":"TSHIRTS","productName":"Green Side Placket Detail T-Shirt","productPrice":"Rs. 1000"},{"Category":"Men","SubCategory":"Jeans ","productName":"Grunt Blue Slim Fit Jeans","productPrice":"Rs. 1400"}],"username":"kunalbiswas241@gmail.com","password":"Kunalb@123","cardDetails":{"cardName":"Kunal Biswas","cardNumber":"4111111111111111","cvc":"153","expiryMonth":"12","expiryYear":"35"}}}]}]}]}]}]</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+All items are added to cart
+          </pre>
+        </div>
+        <div class="row mt-3">
+            <div class="embed col-2 mb-1">
+              <img src="resources/491e67c8-5375-419b-9eed-ad073df7539c.png" />
             </div>
         </div>
     </div>
@@ -621,7 +621,7 @@ All items are added to cart
               <tbody>
                   <tr>
                     <td>java.version</td>
-                    <td>23.0.2</td>
+                    <td>21.0.6</td>
                   </tr>
                   <tr>
                     <td>java.vm.name</td>
@@ -633,7 +633,7 @@ All items are added to cart
                   </tr>
                   <tr>
                     <td>java.class.version</td>
-                    <td>67.0</td>
+                    <td>65.0</td>
                   </tr>
                   <tr>
                     <td>java.runtime.name</td>
@@ -682,12 +682,12 @@ All items are added to cart
                   <td>Toggle skipped tests</td>
                 </tr>
                 <tr>
-                  <td>L</td>
-                  <td>Toggle theme (light/dark)</td>
-                </tr>
-                <tr>
                   <td>esc</td>
                   <td>Reset all filters</td>
+                </tr>
+                <tr>
+                  <td>L</td>
+                  <td>Toggle theme (light/dark)</td>
                 </tr>
                 <tr>
                   <td>f</td>

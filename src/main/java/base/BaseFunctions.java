@@ -4,17 +4,12 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
 import dataHelpers.MasterDataUtils;
 import unifiedReports.LoggerFactory;
 import unifiedUtils.FileUtils;
-import unifiedUtils.JsonOperations;
 import web.playwright.browserManager.BrowserManager;
-import web.playwright.pageActions.PlaywrightActions;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

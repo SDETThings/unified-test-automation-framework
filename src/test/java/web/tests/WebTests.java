@@ -43,6 +43,7 @@ public class WebTests extends WebFlows {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Read the test case meta data");
         browserManager.set(BrowserManager.getInstance(browserName.get(),Boolean.parseBoolean(prop.getProperty("headlessMode"))));
         basePage = new BasePage();
         basePage.launchApplication();

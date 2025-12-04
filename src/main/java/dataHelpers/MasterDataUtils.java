@@ -5,9 +5,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import io.restassured.response.Response;
-import unifiedUtils.FileUtils;
-
-import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
