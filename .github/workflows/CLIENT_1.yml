@@ -30,3 +30,7 @@ jobs:
 
       - name: Run tests
         uses: ./.github/actions/test-run
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+
