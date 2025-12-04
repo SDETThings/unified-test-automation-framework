@@ -1,4 +1,70 @@
 {
   "TestCaseRunConfiguration": [
+    {
+      "test-case-id": "AE0001",
+      "client-id": "TEST_CLIENT_1",
+      "environment": "DEVELOPMENT",
+      "browser": "chrome",
+      "browser-version": "114",
+      "os": "Windows",
+      "os-version": "10",
+      "device-name": "Samsung Galaxy S23",
+      "app-version": "11"
+    },
+    {
+      "test-case-id": "AE0002",
+      "client-id": "TEST_CLIENT_1",
+      "environment": "DEVELOPMENT",
+      "browser": "chrome",
+      "browser-version": "114",
+      "os": "Windows",
+      "os-version": "10",
+      "device-name": "Samsung Galaxy S23",
+      "app-version": "11"
+    },
+    {
+      "test-case-id": "AE0003",
+      "client-id": "TEST_CLIENT_1",
+      "environment": "DEVELOPMENT",
+      "browser": "chrome",
+      "browser-version": "114",
+      "os": "Windows",
+      "os-version": "10",
+      "device-name": "Samsung Galaxy S23",
+      "app-version": "11"
+    },
+    {
+      "test-case-id": "PE0001",
+      "client-id": "TEST_CLIENT_1",
+      "environment": "DEVELOPMENT",
+      "browser": "chrome",
+      "browser-version": "114",
+      "os": "Windows",
+      "os-version": "10",
+      "device-name": "Samsung Galaxy S23",
+      "app-version": "11"
+    },
+    {
+      "test-case-id": "PE0002",
+      "client-id": "TEST_CLIENT_1",
+      "environment": "DEVELOPMENT",
+      "browser": "chrome",
+      "browser-version": "114",
+      "os": "Windows",
+      "os-version": "10",
+      "device-name": "Samsung Galaxy S23",
+      "app-version": "11"
+    },
+    {
+      "test-case-id": "PE0003",
+      "client-id": "TEST_CLIENT_1",
+      "environment": "DEVELOPMENT",
+      "browser": "chrome",
+      "browser-version": "114",
+      "os": "Windows",
+      "os-version": "10",
+      "device-name": "Samsung Galaxy S23",
+      "app-version": "11"
+    }
   ]
 }
