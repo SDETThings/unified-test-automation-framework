@@ -27,3 +27,13 @@ runs:
       env:
         MAVEN_USER: ${{ inputs.OWNER_USERNAME }}
         MAVEN_TOKEN: ${{ inputs.GH_PACKAGE_TOKEN }}
+
+    - name: Install Playwright dependencies
+      shell: bash
+      run: |
+        sudo npx playwright install-deps
+
+    - name: Install Playwright Browsers
+      shell: bash
+      run: |
+        mvn exec:java -e -Dexec.mainClass="com.microsoft.playwright.CLI" -Dexec.args="install"
