@@ -42,7 +42,7 @@
         <dependency>
             <groupId>SDETThings</groupId>
             <artifactId>unified-core-library</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
         <dependency>
